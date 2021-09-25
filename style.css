@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+fieldset h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+
+}
+
+fieldset {
+    padding: 15px 15px;
+    margin: auto;
+    width: 1000px;
+    margin-top: 10px;
+    border: 5px solid rgb(155, 155, 155);
+    border-radius: 5px;
+    background-color: whitesmoke;
+
+}
+
+* label,
+h3,
+legend {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px 5px;
+}
+
+h3 {
+    padding: 10px 10px;
+}
+
+form {
+    display: block;
+
+}
+
+input,
+select {
+    margin: 5px 0 5px 0;
+    padding: 6px 6px;
+    border-radius: 7px;
+    border: 0;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+.fone,
+.endereco {
+    margin-top: 15px;
+}
+
+.opcao {
+    margin-top: 20px;
+}
+
+.preferencia {
+    margin-top: 10px;
+}
+
+.preferencia label {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+.confirmacao {
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.confirmacao span {
+    margin-left: 5px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+.botoes{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botoes input{
+    cursor: pointer;
+    padding: 8px 8px;
+    margin-right: 5px;
+    background-color:rgb(112, 112, 112);
+    color: white;
+}
+.botoes input:hover{
+    cursor: pointer;
+    padding: 8px 8px;
+    margin-right: 5px;
+    background-color:rgb(214, 210, 210);
+    color: rgb(73, 73, 73);
+}
